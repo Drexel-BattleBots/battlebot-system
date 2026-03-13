@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "a350ff7a-a547-44b8-aa5d-3d9eed7f09e0")
+	(uuid "14fcab28-600e-4979-89c6-942868a89dab")
 	(paper "A4")
 	(lib_symbols
 		(symbol "A000066:A000066"
@@ -809,19 +809,396 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "battlebot_library:FS-CT6B_Receiver"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U?"
+				(at 0.508 16.764 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Flysky FS-CT6B"
+				(at 0.762 14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FS-CT6B_Receiver_0_1"
+				(rectangle
+					(start -2.54 12.7)
+					(end 3.81 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "FS-CT6B_Receiver_1_1"
+				(pin input line
+					(at -5.08 10.16 0)
+					(length 2.54)
+					(name "bind"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 7.62 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "CH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "CH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "CH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "CH4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -5.08 -7.62 0)
+					(length 2.54)
+					(name "CH5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -5.08 -10.16 0)
+					(length 2.54)
+					(name "CH6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 45.72 40.64) (xy 55.88 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3407070d-9c46-4586-ba49-dd8d44f11a72")
+	)
+	(wire
+		(pts
+			(xy 45.72 30.48) (xy 55.88 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5850b667-8779-4a55-80cf-c507e0cf42e6")
+	)
+	(wire
+		(pts
+			(xy 45.72 43.18) (xy 55.88 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7715c792-35d5-44d2-95f3-5cb0fdf14ec3")
+	)
+	(wire
+		(pts
+			(xy 45.72 38.1) (xy 55.88 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c38e4b54-264d-4de5-adfc-5151bd570041")
+	)
+	(wire
+		(pts
+			(xy 45.72 33.02) (xy 55.88 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d77ad6b9-3f8c-46a4-9a31-90b080efe831")
+	)
+	(wire
+		(pts
+			(xy 45.72 35.56) (xy 55.88 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f62a5a02-70f0-4520-af29-e842de849788")
 	)
 	(symbol
-		(lib_id "A000066:A000066")
-		(at 31.75 41.91 0)
+		(lib_id "battlebot_library:FS-CT6B_Receiver")
+		(at 40.64 33.02 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(uuid "26a5c0b4-282d-4d57-9441-b4e71aa7c847")
+		(property "Reference" "U1"
+			(at 35.56 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Flysky FS-CT6B"
+			(at 35.56 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b975a907-c1f8-4fed-995b-857a77dd978f")
+		)
+		(pin "1"
+			(uuid "728f73c2-ea15-41b2-bc72-de0468c69070")
+		)
+		(pin "3"
+			(uuid "c38e80b3-79a9-4e4a-8678-72500d6b7e88")
+		)
+		(pin "2"
+			(uuid "e7b8bd20-8265-4f7c-a4b6-b6f5ca59aee4")
+		)
+		(pin "5"
+			(uuid "ca3adab0-6418-4938-beb7-65bd3e7e04a7")
+		)
+		(pin "9"
+			(uuid "55ed5337-374c-4711-9713-ce76342fd9d3")
+		)
+		(pin "8"
+			(uuid "0e609bbf-e650-4db3-af0a-b8b5ee6af7ac")
+		)
+		(pin "6"
+			(uuid "f7b1a77e-8664-4ddf-8602-3acb22d440b4")
+		)
+		(pin "7"
+			(uuid "2b753594-dbf7-4212-a268-42d958faa0b8")
+		)
+		(instances
+			(project "battlebot-system"
+				(path "/a350ff7a-a547-44b8-aa5d-3d9eed7f09e0/f5681333-f861-4eb9-b596-a5fc6c6c8feb"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "A000066:A000066")
+		(at 68.58 35.56 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "38c594e4-7b69-4a52-a713-de4eb364f427")
+		(uuid "eb06e11b-f769-4252-8ac6-3c5c9abdb3dc")
 		(property "Reference" "A1"
-			(at 40.64 39.3699 0)
+			(at 77.47 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -830,7 +1207,7 @@
 			)
 		)
 		(property "Value" "A000066"
-			(at 40.64 41.9099 0)
+			(at 77.47 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -839,7 +1216,7 @@
 			)
 		)
 		(property "Footprint" "A000066:ARDUINO_A000066"
-			(at 31.75 41.91 0)
+			(at 68.58 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -849,7 +1226,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 41.91 0)
+			(at 68.58 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -858,7 +1235,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 41.91 0)
+			(at 68.58 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -867,7 +1244,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "1050-1024-ND"
-			(at 31.75 41.91 0)
+			(at 68.58 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -877,7 +1254,7 @@
 			)
 		)
 		(property "MF" "Arduino"
-			(at 31.75 41.91 0)
+			(at 68.58 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -887,7 +1264,7 @@
 			)
 		)
 		(property "DESCRIPTION" "Arduino UNO Rev3 Microcontroller Board, ATmega328P | Arduino A000066"
-			(at 31.75 41.91 0)
+			(at 68.58 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -897,7 +1274,7 @@
 			)
 		)
 		(property "PACKAGE" "Non-Standard Arduino"
-			(at 31.75 41.91 0)
+			(at 68.58 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -907,7 +1284,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 31.75 41.91 0)
+			(at 68.58 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -917,7 +1294,7 @@
 			)
 		)
 		(property "Package" "Non-Standard Arduino"
-			(at 31.75 41.91 0)
+			(at 68.58 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -927,7 +1304,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/A000066/Arduino/view-part/?ref=eda"
-			(at 31.75 41.91 0)
+			(at 68.58 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -937,7 +1314,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/A000066/Arduino/view-part/?ref=snap"
-			(at 31.75 41.91 0)
+			(at 68.58 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -947,7 +1324,7 @@
 			)
 		)
 		(property "SNAPEDA_LINK" "https://www.snapeda.com/parts/A000066/Arduino/view-part/?ref=snap"
-			(at 31.75 41.91 0)
+			(at 68.58 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -957,7 +1334,7 @@
 			)
 		)
 		(property "MP" "A000066"
-			(at 31.75 41.91 0)
+			(at 68.58 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -967,7 +1344,7 @@
 			)
 		)
 		(property "Description_1" "Arduino UNO Rev3 Microcontroller Board, ATmega328P | Arduino A000066"
-			(at 31.75 41.91 0)
+			(at 68.58 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -977,7 +1354,7 @@
 			)
 		)
 		(property "AVAILABILITY" "In Stock"
-			(at 31.75 41.91 0)
+			(at 68.58 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -987,7 +1364,7 @@
 			)
 		)
 		(property "CHECK_PRICES" "https://www.snapeda.com/parts/A000066/Arduino/view-part/?ref=eda"
-			(at 31.75 41.91 0)
+			(at 68.58 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1000,7 +1377,7 @@
 			(uuid "1952226c-e7ee-4b05-9720-e853d02cf4a3")
 		)
 		(pin "A1"
-			(uuid "4ead7ff2-cabb-4dc5-a154-3141a9f4b59d")
+			(uuid "c8a3940b-9072-4137-b705-cc88f064649a")
 		)
 		(pin "D8"
 			(uuid "e443d4b7-f797-4986-b59c-365afc0ba80c")
@@ -1015,7 +1392,7 @@
 			(uuid "dffef474-4343-440e-9a87-fec31a94cd32")
 		)
 		(pin "A3"
-			(uuid "136d36f0-0c75-4abe-b6ee-73fd5aaeebe3")
+			(uuid "1987e850-8697-4343-808c-58bbd4bf0fb9")
 		)
 		(pin "A4_SDA"
 			(uuid "bbea554c-a043-4ee1-9cd6-8d1df3796b9a")
@@ -1039,16 +1416,16 @@
 			(uuid "137724b1-3b22-4360-aa48-81c42964abb2")
 		)
 		(pin "A4"
-			(uuid "9ef752ab-28f5-4790-bbb0-37d8a352d83f")
+			(uuid "ef5943ad-7223-4a34-9127-8b066bee2182")
 		)
 		(pin "A2"
-			(uuid "bd3b7919-b4c4-4a3c-a7ba-048982d5a0e0")
+			(uuid "0b991db5-04ae-4fed-a6df-c5546ec5a92e")
 		)
 		(pin "A0"
-			(uuid "571e3d83-ac7f-45c7-8816-36ab4b234606")
+			(uuid "3ac7a605-8b75-467a-bfa2-0bd0fbd90f00")
 		)
 		(pin "A5"
-			(uuid "676d2305-0015-43b7-a68d-3d2951ca4c88")
+			(uuid "93e8ac02-6003-4f06-9fa5-500f67660d8e")
 		)
 		(pin "D0"
 			(uuid "7d2661bb-c958-4140-b626-6adba5ec2149")
@@ -1093,642 +1470,12 @@
 			(uuid "12cdb850-c739-4417-999f-83b10fcae453")
 		)
 		(instances
-			(project ""
-				(path "/a350ff7a-a547-44b8-aa5d-3d9eed7f09e0"
-					(reference "A1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "A000066:A000066")
-		(at 82.55 82.55 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "681a2922-69ba-423a-bdb0-44a85efd507b")
-		(property "Reference" "A1"
-			(at 91.44 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "A000066"
-			(at 91.44 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "A000066:ARDUINO_A000066"
-			(at 82.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "1050-1024-ND"
-			(at 82.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Arduino"
-			(at 82.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "Arduino UNO Rev3 Microcontroller Board, ATmega328P | Arduino A000066"
-			(at 82.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "Non-Standard Arduino"
-			(at 82.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 82.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Non-Standard Arduino"
-			(at 82.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/A000066/Arduino/view-part/?ref=eda"
-			(at 82.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/A000066/Arduino/view-part/?ref=snap"
-			(at 82.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_LINK" "https://www.snapeda.com/parts/A000066/Arduino/view-part/?ref=snap"
-			(at 82.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "A000066"
-			(at 82.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Arduino UNO Rev3 Microcontroller Board, ATmega328P | Arduino A000066"
-			(at 82.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "In Stock"
-			(at 82.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CHECK_PRICES" "https://www.snapeda.com/parts/A000066/Arduino/view-part/?ref=eda"
-			(at 82.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "D9"
-			(uuid "1952226c-e7ee-4b05-9720-e853d02cf4a4")
-		)
-		(pin "A1"
-			(uuid "4ead7ff2-cabb-4dc5-a154-3141a9f4b59e")
-		)
-		(pin "D8"
-			(uuid "e443d4b7-f797-4986-b59c-365afc0ba80d")
-		)
-		(pin "D10"
-			(uuid "4d032380-2b31-4f28-9597-38e3378e73c5")
-		)
-		(pin "D11"
-			(uuid "6628a677-0780-43a7-af62-c2c1f8000fed")
-		)
-		(pin "AREF"
-			(uuid "dffef474-4343-440e-9a87-fec31a94cd33")
-		)
-		(pin "A3"
-			(uuid "136d36f0-0c75-4abe-b6ee-73fd5aaeebe4")
-		)
-		(pin "A4_SDA"
-			(uuid "bbea554c-a043-4ee1-9cd6-8d1df3796b9b")
-		)
-		(pin "D7"
-			(uuid "0b79c41f-65b8-44b4-91a5-0a419dbd4799")
-		)
-		(pin "GND_3"
-			(uuid "7eac8330-a5dd-459d-babf-49b86484c70c")
-		)
-		(pin "VIN"
-			(uuid "6b997fda-dc88-4c0b-a19d-a947a65cf50b")
-		)
-		(pin "D12"
-			(uuid "d4807044-c35c-49b8-93fa-ee2ee3d9e16e")
-		)
-		(pin "D13"
-			(uuid "77844227-c8e4-420b-a20a-eae9f718729d")
-		)
-		(pin "D4"
-			(uuid "137724b1-3b22-4360-aa48-81c42964abb3")
-		)
-		(pin "A4"
-			(uuid "9ef752ab-28f5-4790-bbb0-37d8a352d840")
-		)
-		(pin "A2"
-			(uuid "bd3b7919-b4c4-4a3c-a7ba-048982d5a0e1")
-		)
-		(pin "A0"
-			(uuid "571e3d83-ac7f-45c7-8816-36ab4b234607")
-		)
-		(pin "A5"
-			(uuid "676d2305-0015-43b7-a68d-3d2951ca4c89")
-		)
-		(pin "D0"
-			(uuid "7d2661bb-c958-4140-b626-6adba5ec214a")
-		)
-		(pin "GND_2"
-			(uuid "e2bd213c-675c-4e01-bcb6-a0d9c872d283")
-		)
-		(pin "GND_1"
-			(uuid "399fecd3-f50e-414a-85c3-73c72c6cd5ef")
-		)
-		(pin "5V"
-			(uuid "a3a5c6a3-2c2d-44d9-8f90-2bbcb4e516b5")
-		)
-		(pin "D1"
-			(uuid "d402da7d-88f8-4c66-9d31-606b981ea256")
-		)
-		(pin "D5"
-			(uuid "377ee3e2-3e4c-4252-afde-8482db128f64")
-		)
-		(pin "A5_SCL"
-			(uuid "56f59784-65ea-45a3-92be-2f3d3ad75eaf")
-		)
-		(pin "D3"
-			(uuid "26b8b51b-0d48-485c-a05b-63e6b73b3201")
-		)
-		(pin "3V3"
-			(uuid "bf6b400d-c7ce-4dc8-ac54-c95789aab1ba")
-		)
-		(pin "RST"
-			(uuid "09033fdb-df5a-449e-b6a8-9bb504477a4c")
-		)
-		(pin "IOREF"
-			(uuid "789c9fbe-599f-4253-b174-9e948833705e")
-		)
-		(pin "P1"
-			(uuid "3edcafd1-cf60-480b-a123-ac0cc24d819d")
-		)
-		(pin "D2"
-			(uuid "7c6975c2-29e6-4393-b4ee-8f22702b5d05")
-		)
-		(pin "D6"
-			(uuid "12cdb850-c739-4417-999f-83b10fcae454")
-		)
-		(instances
-			(project ""
-				(path "/a350ff7a-a547-44b8-aa5d-3d9eed7f09e0"
-					(reference "A1")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "A000066:A000066")
-		(at 30.48 81.28 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a3ae45d-d727-4d18-b145-3af65c0148c3")
-		(property "Reference" "A1"
-			(at 39.37 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "A000066"
-			(at 39.37 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "A000066:ARDUINO_A000066"
-			(at 30.48 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 30.48 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "1050-1024-ND"
-			(at 30.48 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Arduino"
-			(at 30.48 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "Arduino UNO Rev3 Microcontroller Board, ATmega328P | Arduino A000066"
-			(at 30.48 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "Non-Standard Arduino"
-			(at 30.48 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 30.48 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Non-Standard Arduino"
-			(at 30.48 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/A000066/Arduino/view-part/?ref=eda"
-			(at 30.48 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/A000066/Arduino/view-part/?ref=snap"
-			(at 30.48 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_LINK" "https://www.snapeda.com/parts/A000066/Arduino/view-part/?ref=snap"
-			(at 30.48 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "A000066"
-			(at 30.48 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Arduino UNO Rev3 Microcontroller Board, ATmega328P | Arduino A000066"
-			(at 30.48 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "In Stock"
-			(at 30.48 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CHECK_PRICES" "https://www.snapeda.com/parts/A000066/Arduino/view-part/?ref=eda"
-			(at 30.48 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "D9"
-			(uuid "1952226c-e7ee-4b05-9720-e853d02cf4a5")
-		)
-		(pin "A1"
-			(uuid "4ead7ff2-cabb-4dc5-a154-3141a9f4b59f")
-		)
-		(pin "D8"
-			(uuid "e443d4b7-f797-4986-b59c-365afc0ba80e")
-		)
-		(pin "D10"
-			(uuid "4d032380-2b31-4f28-9597-38e3378e73c6")
-		)
-		(pin "D11"
-			(uuid "6628a677-0780-43a7-af62-c2c1f8000fee")
-		)
-		(pin "AREF"
-			(uuid "dffef474-4343-440e-9a87-fec31a94cd34")
-		)
-		(pin "A3"
-			(uuid "136d36f0-0c75-4abe-b6ee-73fd5aaeebe5")
-		)
-		(pin "A4_SDA"
-			(uuid "bbea554c-a043-4ee1-9cd6-8d1df3796b9c")
-		)
-		(pin "D7"
-			(uuid "0b79c41f-65b8-44b4-91a5-0a419dbd479a")
-		)
-		(pin "GND_3"
-			(uuid "7eac8330-a5dd-459d-babf-49b86484c70d")
-		)
-		(pin "VIN"
-			(uuid "6b997fda-dc88-4c0b-a19d-a947a65cf50c")
-		)
-		(pin "D12"
-			(uuid "d4807044-c35c-49b8-93fa-ee2ee3d9e16f")
-		)
-		(pin "D13"
-			(uuid "77844227-c8e4-420b-a20a-eae9f718729e")
-		)
-		(pin "D4"
-			(uuid "137724b1-3b22-4360-aa48-81c42964abb4")
-		)
-		(pin "A4"
-			(uuid "9ef752ab-28f5-4790-bbb0-37d8a352d841")
-		)
-		(pin "A2"
-			(uuid "bd3b7919-b4c4-4a3c-a7ba-048982d5a0e2")
-		)
-		(pin "A0"
-			(uuid "571e3d83-ac7f-45c7-8816-36ab4b234608")
-		)
-		(pin "A5"
-			(uuid "676d2305-0015-43b7-a68d-3d2951ca4c8a")
-		)
-		(pin "D0"
-			(uuid "7d2661bb-c958-4140-b626-6adba5ec214b")
-		)
-		(pin "GND_2"
-			(uuid "e2bd213c-675c-4e01-bcb6-a0d9c872d284")
-		)
-		(pin "GND_1"
-			(uuid "399fecd3-f50e-414a-85c3-73c72c6cd5f0")
-		)
-		(pin "5V"
-			(uuid "a3a5c6a3-2c2d-44d9-8f90-2bbcb4e516b6")
-		)
-		(pin "D1"
-			(uuid "d402da7d-88f8-4c66-9d31-606b981ea257")
-		)
-		(pin "D5"
-			(uuid "377ee3e2-3e4c-4252-afde-8482db128f65")
-		)
-		(pin "A5_SCL"
-			(uuid "56f59784-65ea-45a3-92be-2f3d3ad75eb0")
-		)
-		(pin "D3"
-			(uuid "26b8b51b-0d48-485c-a05b-63e6b73b3202")
-		)
-		(pin "3V3"
-			(uuid "bf6b400d-c7ce-4dc8-ac54-c95789aab1bb")
-		)
-		(pin "RST"
-			(uuid "09033fdb-df5a-449e-b6a8-9bb504477a4d")
-		)
-		(pin "IOREF"
-			(uuid "789c9fbe-599f-4253-b174-9e948833705f")
-		)
-		(pin "P1"
-			(uuid "3edcafd1-cf60-480b-a123-ac0cc24d819e")
-		)
-		(pin "D2"
-			(uuid "7c6975c2-29e6-4393-b4ee-8f22702b5d06")
-		)
-		(pin "D6"
-			(uuid "12cdb850-c739-4417-999f-83b10fcae455")
-		)
-		(instances
-			(project ""
-				(path "/a350ff7a-a547-44b8-aa5d-3d9eed7f09e0"
-					(reference "A1")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 138.43 66.04)
-		(size 48.26 33.02)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f5681333-f861-4eb9-b596-a5fc6c6c8feb")
-		(property "Sheetname" "remote_communication"
-			(at 138.43 65.3284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "remote_communication.kicad_sch"
-			(at 138.43 99.6446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
 			(project "battlebot-system"
-				(path "/a350ff7a-a547-44b8-aa5d-3d9eed7f09e0"
-					(page "2")
+				(path "/a350ff7a-a547-44b8-aa5d-3d9eed7f09e0/f5681333-f861-4eb9-b596-a5fc6c6c8feb"
+					(reference "A1")
+					(unit 2)
 				)
 			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )
