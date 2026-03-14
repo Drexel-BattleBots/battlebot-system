@@ -1106,7 +1106,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26a5c0b4-282d-4d57-9441-b4e71aa7c847")
-		(property "Reference" "U1"
+		(property "Reference" "U?"
 			(at 35.56 31.7499 0)
 			(effects
 				(font
@@ -1179,6 +1179,12 @@
 			(uuid "2b753594-dbf7-4212-a268-42d958faa0b8")
 		)
 		(instances
+			(project "remote_communication"
+				(path "/14fcab28-600e-4979-89c6-942868a89dab"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "battlebot-system"
 				(path "/a350ff7a-a547-44b8-aa5d-3d9eed7f09e0/f5681333-f861-4eb9-b596-a5fc6c6c8feb"
 					(reference "U1")
@@ -1470,6 +1476,12 @@
 			(uuid "12cdb850-c739-4417-999f-83b10fcae453")
 		)
 		(instances
+			(project "remote_communication"
+				(path "/14fcab28-600e-4979-89c6-942868a89dab"
+					(reference "A1")
+					(unit 2)
+				)
+			)
 			(project "battlebot-system"
 				(path "/a350ff7a-a547-44b8-aa5d-3d9eed7f09e0/f5681333-f861-4eb9-b596-a5fc6c6c8feb"
 					(reference "A1")
@@ -1478,4 +1490,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
