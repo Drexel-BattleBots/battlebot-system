@@ -1058,16 +1058,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 43.18) (xy 55.88 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7715c792-35d5-44d2-95f3-5cb0fdf14ec3")
-	)
-	(wire
-		(pts
 			(xy 45.72 38.1) (xy 55.88 38.1)
 		)
 		(stroke
@@ -1085,6 +1075,16 @@
 			(type default)
 		)
 		(uuid "d77ad6b9-3f8c-46a4-9a31-90b080efe831")
+	)
+	(wire
+		(pts
+			(xy 45.72 43.18) (xy 55.88 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8fe3a1d-2e51-4362-a7e4-072bef5999f5")
 	)
 	(wire
 		(pts
@@ -1106,7 +1106,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26a5c0b4-282d-4d57-9441-b4e71aa7c847")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 35.56 31.7499 0)
 			(effects
 				(font
